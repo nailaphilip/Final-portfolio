@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header id="myHeader">
+      <div class="logo">
+        <h1>Nailya Philippova</h1>
+      </div>
+      <div id="navBar">
+        <nav>
+            <button class="mobile">
+                <span class="material-symbols-outlined">
+                    menu
+                    </span>
+            </button>
+          <ul id="navBar">
+            <li><a class="navLink" href="#">Home</a></li>
+            <li><a class="navLink" href="#">About</a></li>
+            <li><a class="navLink" href="#">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <section class="animate-pop-in" id="hero-banner">
+        <h2 class="animate-pop-in">Welcome to my portfolio</h2>
+      </section>
+      <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+      <div class="container">
+        <section id="projects">
+          <h2>Projects</h2>
+          <div class="container_cards">
+            <div class="card">
+              <img class="cardImage" src="room.jpg" alt="room" />
+              <h4>Card 1</h4>
+              <p>Lorem, ipsum dolor</p>
+              <a id="seeMore">See more</a>
+            </div>
+            <div class="card">
+              <img class="cardImage" src="street.jpg" alt="street" />
+              <h4>Card 2</h4>
+              <p>Lorem, ipsum dolor</p>
+              <a id="seeMore" href="http://">See more</a>
+            </div>
+            <div class="card">
+              <img class="cardImage" src="cake.jpg" alt="cake" />
+
+              <h4>Card 3</h4>
+              <p>Lorem, ipsum dolor</p>
+              <a id="seeMore" href="#">See more</a>
+            </div>
+          </div>
+        </section>
+        <section id="about">
+          <div class="aboutMe_container">
+            <div class="text">
+              <h2>About me</h2>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde
+                nesciunt laborum amet temporibus laudantium culpa, iste velit
+                ipsa odio esse minus animi? Rem earum et suscipit molestiae sint
+                ullam blanditiis?
+              </p>
+            </div>
+            <div class="image">
+              <img id="catImage" src="cat.jpg" alt="cat" style="width: 100px" />
+            </div>
+          </div>
+        </section>
+        <section id="skills">
+          <h2>Skills</h2>
+          <i class="fa-brands fa-html5"></i>
+          <label for="file">Level:</label>
+          <progress id="file" max="100" value="40">40%</progress>
+
+          <i class="fa-brands fa-css3"></i>
+          <label for="file">Level:</label>
+          <progress id="file" max="100" value="30">30%</progress>
+
+          <i class="fa-solid fa-language"></i>
+          <label for="file">Level:</label>
+          <progress id="file" max="100" value="70">70%</progress>
+        </section>
+        <section id="form">
+          <form>
+            <h3>Contact me</h3>
+            <label for="name">Your name</label>
+            <input type="text" name="name" id="name" />
+            <label for="email">Your email</label>
+            <input type="text" name="email" id="email" />
+            <label for="comments">Message to me</label>
+            <input type="text" name="comments" id="comments" />
+            <input id="sendButton" type="button" value="Send message" />
+          </form>
+        </section>
+      </div>
+    </main>
+    <script
+      src="https://kit.fontawesome.com/b792ac96f9.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="main.js"></script>
+  </body>
+</html>
