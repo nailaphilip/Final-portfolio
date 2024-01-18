@@ -10,84 +10,86 @@
       href="https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Montserrat&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"
+    />
     <link rel="stylesheet" href="style.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
-    <link rel="stylesheet" href="style-gallery.css" />
     <title>Gallery</title>
   </head>
   <body>
     <header id="myHeader">
-      <div class="headerContainer">
-        <div class="logo">
-          <h1>Nailya Philippova</h1>
-        </div>
-        <div>
-          <nav>
-            <button class="mobile">
-              <span class="material-symbols-outlined">
-                  menu
-                  </span>
+      <div class="logo">
+        <h1>Nailya Philippova</h1>
+      </div>
+      <div class="navContainer">
+        <nav>
+          <button class="mobile">
+            <span class="material-symbols-outlined">menu</span>
           </button>
-            <ul id="navBar">
-              <li><a class="navLink" href="#">Home</a></li>
-              <li><a class="navLink" href="#">About</a></li>
-              <li><a class="navLink" href="#">Contact</a></li>
-            </ul>
-          </nav>
-        </div>
+          <ul id="navMenu">
+            <li><a class="navLink" href="/">Home</a></li>
+            <li><a class="navLink" href="gallery.html">Gallery</a></li>
+            <li>
+              <a
+                class="navLink"
+                href="https://www.linkedin.com/in/nailya-philippova/"
+                >Connect</a
+              >
+            </li>
+          </ul>
+        </nav>
       </div>
     </header>
     <main>
-      <div class="container_grid">
-        <div class="gallery">
-          <figure class="gallery_item gallery__item--1">
-            <img
-              src="./assets/akira-XcGW3zEm6g8-unsplash-min.jpg"
-              class="gallery__img"
-              alt="Image 1"
-            />
-          </figure>
-          <figure class="gallery__item gallery__item--2">
-            <img
-              src="./assets/anita-austvika-W0kcERhfcr0-unsplash-min.jpg"
-              class="gallery__img"
-              alt="Image 2"
-            />
-          </figure>
-          <figure class="gallery__item gallery__item--3">
-            <img
-              src="./assets/daniel-fatnes-6dxogOeJ978-unsplash-min.jpg"
-              class="gallery__img"
-              alt="Image 3"
-            />
-          </figure>
-          <figure class="gallery__item gallery__item--4">
-            <img
-              src="./assets/daniil-komov-P41hwtOEyRo-unsplash-min.jpg"
-              class="gallery__img"
-              alt="Image 4"
-            />
-          </figure>
-          <figure class="gallery__item gallery__item--5">
-            <img
-              src="./assets/evgeny-matveev-ArEzsjLgG-I-unsplash-min.jpg"
-              class="gallery__img"
-              alt="Image 5"
-            />
-          </figure>
+      <div class="gallery">
+        <figure class="gallery_item gallery__item--1">
+          <img
+            src="./assets/akira-XcGW3zEm6g8-unsplash-min.jpg"
+            class="gallery__img"
+            alt="flowers"
+          />
+        </figure>
+        <figure class="gallery__item gallery__item--2">
+          <img
+            src="./assets/anita-austvika-W0kcERhfcr0-unsplash-min.jpg"
+            class="gallery__img"
+            alt="roses"
+          />
+        </figure>
+        <figure class="gallery__item gallery__item--3">
+          <img
+            src="./assets/daniel-fatnes-6dxogOeJ978-unsplash-min.jpg"
+            class="gallery__img"
+            alt="mountain"
+          />
+        </figure>
+        <figure class="gallery__item gallery__item--4">
+          <img
+            src="./assets/daniil-komov-P41hwtOEyRo-unsplash-min.jpg"
+            class="gallery__img"
+            alt="bird"
+          />
+        </figure>
+        <figure class="gallery__item gallery__item--5">
+          <img
+            src="./assets/evgeny-matveev-ArEzsjLgG-I-unsplash-min.jpg"
+            class="gallery__img"
+            alt="street"
+          />
+        </figure>
 
-          <figure class="gallery__item gallery__item--6">
-            <img
-              src="./assets/frankie-lopez-s6UYVGqoFCw-unsplash-min.jpg"
-              class="gallery__img"
-              alt="Image 6"
-            />
-          </figure>
-        </div>
+        <figure class="gallery__item gallery__item--6">
+          <img
+            src="./assets/frankie-lopez-s6UYVGqoFCw-unsplash-min.jpg"
+            class="gallery__img"
+            alt="snowy town"
+          />
+        </figure>
       </div>
     </main>
     <section id="form">
@@ -102,6 +104,6 @@
         <input id="sendButton" type="button" value="Send message" />
       </form>
     </section>
-    <script src="main.js"></script>
+    <script async src="main.js"></script>
   </body>
 </html>

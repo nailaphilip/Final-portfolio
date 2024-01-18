@@ -14,6 +14,7 @@ body {
 
 nav ul li a {
     color: white;
+    padding: 5px;
 }
 
 
@@ -71,7 +72,7 @@ ul.responsive li {
 
 #hero-banner {
     height: 100vh;
-    background: url(hd.jpeg) no-repeat center center/cover;
+    background: url(hd_small.jpeg) no-repeat center center/cover;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -182,7 +183,7 @@ a {
     text-decoration: none;
 }
 
-#seeMore {
+.seeMore {
     color: brown;
 }
 
@@ -194,6 +195,9 @@ a {
     color: hotpink;
 }
 
+#cat {
+    border-radius: 5px;
+}
 button {
     background-color: coral;
 }
@@ -239,16 +243,13 @@ i {
     background-color: #555; 
   }
 
-  /* .container_grid {
-    width: 80%;
-    margin: 0 2rem; 
-  } */
 
   .gallery {
     display: grid;
     grid-template-columns: repeat(8, 1fr);
     grid-template-rows: repeat(8, 5vw);
     grid-gap: 1.5rem;
+    padding-top: 80px;
 }
 
 .gallery__img {
