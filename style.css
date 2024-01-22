@@ -53,7 +53,7 @@ nav a {
 
 ul.responsive {
     display: block;
-    background-color: white;
+    background-color: rgb(192, 83, 83);
     color:#333;
     position: absolute;
     left: 0;
@@ -143,15 +143,25 @@ h4 {
 
 p {
     line-height: 1.8;
+    line-height: 1.8;
+    padding: 30px;
 }
 
 .aboutMe_container {
     display: flex;
-    height: 200px;
-    align-items: center;
-    justify-content: center;
+    max-height: 800px;
 }
 
+.about_image {
+  margin-right: 10px;
+   flex: 30%;
+   max-width: 100%;
+   
+}
+
+.about_text {
+    flex: 70%;
+}
 
 .cardImage {
 width: 250px;
@@ -197,6 +207,7 @@ a {
 
 #cat {
     border-radius: 5px;
+    object-fit: cover;
 }
 button {
     background-color: coral;
@@ -318,6 +329,9 @@ i {
     #hero-banner {
         justify-content: center;
         align-items: center;
+    }
+    .aboutMe_container{
+width: 100%;
     }
 }
 
